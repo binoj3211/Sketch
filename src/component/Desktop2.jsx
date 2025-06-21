@@ -12,7 +12,7 @@ function Desktop2() {
           
         </div>
         
-        {/* Image section with overlay */}
+        
         <div className="relative">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/2fbb717cb9604ca0a1bb16062f4edccf/cbc3fd7705efbfa1fd1fd14bd376fa61b3f8f344?placeholderIfAbsent=true"
@@ -20,7 +20,7 @@ function Desktop2() {
             alt=""
           />
           
-          {/* Text overlay positioned on the left side */}
+          
           <div className="absolute top-4 left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:left-16 z-20 w-4/5 sm:w-3/4 md:w-2/3 lg:w-1/2">
             <h1 style={{ 
               fontSize: 'clamp(1.5rem, 6vw, 7rem)',
@@ -43,7 +43,7 @@ function Desktop2() {
           </div>
           
           <div className="mt-8 sm:mt-12 md:mt-16 lg:mt-20">
-            {/* First section with bold sans-serif */}
+            
             <div style={{ 
               fontFamily: 'Inter, Arial, sans-serif', 
               fontWeight: 700, 
@@ -55,7 +55,7 @@ function Desktop2() {
               Your workplace is filled with potential. It's our passion to deliver that potential.
             </div>
             
-            {/* Second section with serif font */}
+            
             <div style={{ 
               fontFamily: 'Times New Roman, Times, serif', 
               fontSize: 'clamp(18px, 2.5vw, 24px)', 
@@ -66,7 +66,7 @@ function Desktop2() {
               At Sketch Studios, we specialise in giving workplaces of all kinds the love and attention they deserve. If you want to feel inspired by a workplace as innovative as you and your team, you're in good hands here.
             </div>
             
-            {/* Third section with different serif */}
+            
             <div style={{ 
               fontFamily: 'Georgia, Times, serif', 
               fontSize: 'clamp(18px, 2.5vw, 24px)', 
@@ -77,7 +77,7 @@ function Desktop2() {
               Sketch Studios exists at the intersection between consultancy, design, and transformation of workplaces. We reimagine spaces, seeing the often elusive opportunities that can only be uncovered through new perspectives and unbounded creativity. We infuse each project with a rich tapestry of knowledge and insights that drive success. We push the boundaries of what we can do and challenge what we know until our results mirror the passion that drives us.
             </div>
             
-            {/* Fourth section with another serif variation */}
+            
             <div style={{ 
               fontFamily: 'Crimson Text, Georgia, serif', 
               fontSize: 'clamp(18px, 2.5vw, 24px)', 
@@ -88,7 +88,7 @@ function Desktop2() {
               We're the choice for brands that share our energy and ambition, who we can match with a zest for workplace design and an inventiveness that brings an environment to life.
             </div>
             
-            {/* Final section with elegant serif */}
+            
             <div style={{ 
               fontFamily: 'Playfair Display, Georgia, serif', 
               fontSize: 'clamp(18px, 2.5vw, 24px)', 

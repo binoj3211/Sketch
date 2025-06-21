@@ -95,17 +95,17 @@ const FurnitureShowcase = () => {
                 </div>
               </div>
               
-              {/* Content Section - Right Side */}
+              
               <div className="w-full lg:w-2/3 bg-gray-50 p-4 sm:p-6 md:p-8 lg:p-12 xl:p-16 flex flex-col justify-center">
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
-                  {/* Title - Centered */}
+                 
                   <div className="text-center">
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-black uppercase tracking-[0.05em] sm:tracking-[0.1em] text-black leading-tight font-sans px-2">
                       {service.title}
                     </h2>
                   </div>
                   
-                  {/* Paragraphs */}
+                  
                   <div className="space-y-4 sm:space-y-6 lg:space-y-8">
                     {service.paragraphs.map((paragraph, idx) => (
                       <p key={idx} className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl leading-relaxed sm:leading-relaxed md:leading-relaxed lg:leading-relaxed text-black text-left font-sans px-2">
@@ -114,7 +114,7 @@ const FurnitureShowcase = () => {
                     ))}
                   </div>
                   
-                  {/* CTA Button */}
+                  
                   <div className="pt-4 sm:pt-6 md:pt-8 text-center">
                     <button className="group relative inline-flex items-center gap-2 sm:gap-3 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-medium text-black uppercase tracking-wider hover:text-gray-700 transition-colors duration-300 bg-white border border-gray-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full">
                       <span>Find out more</span>
@@ -127,7 +127,7 @@ const FurnitureShowcase = () => {
               </div>
             </div>
             
-            {/* No space between sections - they flow directly */}
+            
           </div>
         );
       })}

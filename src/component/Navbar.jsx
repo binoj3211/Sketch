@@ -11,12 +11,12 @@ export default function Navbar() {
     <nav className="bg-black text-white px-3 sm:px-6 py-4 w-full font-sans">
       <div className="w-full max-w-[1800px] mx-auto">
         <div className="flex justify-between items-center">
-          {/* Logo - Responsive sizing */}
+         
           <div className="text-[40px] sm:text-[50px] md:text-[60px] font-normal tracking-tight leading-[1] text-white">
             Sketch
           </div>
 
-          {/* Desktop Navigation - Responsive breakpoints */}
+         
           <div className="hidden xl:flex items-center space-x-6 lg:space-x-8 xl:space-x-10 text-[14px] lg:text-[16px] font-normal tracking-normal">
             <a href="#what-we-do" className="hover:text-gray-300 transition-colors whitespace-nowrap">
               What we do
@@ -32,7 +32,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Tablet Navigation - Shows on lg but hides on xl */}
+          
           <div className="hidden lg:flex xl:hidden items-center space-x-6 text-[14px] font-normal tracking-normal">
             <a href="#what-we-do" className="hover:text-gray-300 transition-colors">
               What we do
@@ -48,7 +48,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Right side - Responsive button and menu */}
+          
           <div className="flex items-center space-x-2 sm:space-x-4">
             <button className="px-4 sm:px-6 lg:px-8 py-2 sm:py-3 text-[14px] sm:text-[16px] text-black bg-white rounded-full hover:bg-gray-100 transition-colors font-normal flex items-center">
               <span>Get in touch</span>
@@ -70,7 +70,7 @@ export default function Navbar() {
               </svg>
             </button>
             
-            {/* Mobile Menu Button - Shows up to xl */}
+           
             <button
               onClick={toggleMenu}
               className="xl:hidden flex flex-col justify-center items-center w-8 h-8"
@@ -82,7 +82,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu - Responsive spacing */}
+        
         <div className={`xl:hidden ${isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} transition-all duration-300 overflow-hidden`}>
           <div className="pt-4 sm:pt-6 pb-2 space-y-4 sm:space-y-5">
             <a
